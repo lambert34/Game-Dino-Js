@@ -1,5 +1,5 @@
 html {
-   
+   background-color: #f8f8f8	;
 }
 
 .game {
@@ -12,8 +12,19 @@ html {
 #dino {
     width: 50px;
     height: 50px;
-    background-image: url(/img/png-transparent-tyrannosaurus-dino-t-rex-google-chrome-jumping-dinosaur-dinosaur-game-angle-white-thumbnail.png);
+    background-image: url(/img/png-clipart.png);
     background-size: 50px 50px;
     position: relative;
     top: 150px;
+}
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(/img/4-original.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    animation: cactusMov 1s infinite linear;
 }
